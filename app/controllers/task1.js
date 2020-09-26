@@ -1,9 +1,7 @@
 
 const common = require('./common')
 
-//--------------------------------
-// for task 1 , without using any control flow abstracting library
-//--------------------------------
+
 function Test(req, resp){	 
 	var sites = [];
 	var  counter = 0;
