@@ -1,4 +1,4 @@
-Therappy Back-End Challenge
+
 This test consists of three parts. You need to implement the same task three times using different control flow strategies.
 
 The purpose of this test is to measure your understanding of control flow in an asynchronous environment.
