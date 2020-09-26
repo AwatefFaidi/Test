@@ -60,7 +60,7 @@ function parsehtml(url,error, html)
 		
 		request(tUrl, function(error, res, html){	
 		title=parsehtml(url,error, html);
-					//debugLog(`${url} - ${title}`);
+					
 		
 		setTitle(url,title);
 		}
@@ -70,19 +70,7 @@ function parsehtml(url,error, html)
 	}
 
 	
-/*		
-var isDebug = true;
-function setDebug(debug){
-	isDebug = debug;
-}
-function debugLog(str){
-	if(isDebug){
-		console.log(str);
-	}
-}
-*/
+
 
 module.exports.returnTitle = returnTitle;
 module.exports.getUrlTitle = getUrlTitle;
-/*module.exports.setDebug = setDebug;
-module.exports.debugLog = debugLog;*/
