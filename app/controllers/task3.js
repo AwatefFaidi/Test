@@ -3,9 +3,7 @@ const request = require('request');
 const common = require('./common');
 
 var titlerg = new RegExp("<title>(.*?)</title>", "g");
-//--------------------------------
-// for task 3 , using Promises
-//--------------------------------
+
 function Test(req, resp){
 	
 
