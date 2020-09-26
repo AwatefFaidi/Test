@@ -31,7 +31,7 @@ router.all('/*', (req, resp) => {
 
 router.listen(port, (err) => {
   if (err) {
-    return console.log('something bad happened', err)
+    return console.log('errr')
   }
 
   console.log(`server is listening on ${port}`)
